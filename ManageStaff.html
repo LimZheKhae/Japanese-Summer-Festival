@@ -1,0 +1,161 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>ManageStaff</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Slime -->
+  <link href="img/slime.png" rel="icon">
+  <link href="img/slime.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+<style>
+.admin{
+	padding: 10px;
+}
+
+.mm{
+	font-size: 70px;
+	color:#fff;
+	text-decoration:underline;
+}
+	 
+table{border-collapse: collapse;
+  width: 100%;
+  opacity: 0.9;
+  background-color:orange;}
+
+
+
+td{border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;}
+  
+.admin{min-height:1080px;}
+  
+.admin img{width:50px; height:50px;}
+
+.admin img:hover{cursor:pointer;
+          opacity:0.4;}
+
+.head{color:white;}
+	  
+input[type=button]
+{
+background-color:red;
+color:white;
+margin-top:10px;
+margin-left:1700px;
+border-radius:7px;
+border: 0px solid white;}
+
+input[type=button]:hover
+{cursor:pointer;
+opacity:0.8;}
+
+input {
+  background-color: transparent; /* transparent */
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+button {
+  background-color: transparent; /* transparent */
+  border: none;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+</style>
+
+
+</head>
+<body>
+<div style="background-image: url('img/festive.jpg'); background-size:cover; background-repeat:no-repeat;">
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
+        <a href="index.html" class="scrollto"><img src="img/logo.png" alt="Matsuri" title="Natsu_Matsuri"></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="AdminDashboard.html#intro">Admin Dashboard</a></li>
+          <li><a href="ManageStaff.html">Staff</a></li>
+          <li><a href="ManageMember.html">Manage Member</a></li>
+		  <li><a href="festive detail proposal.html">Festive Detail Proposal</a></li>
+          <li class="buy-tickets"><a href="Index.html">Main page</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+<!--Manage member-->
+<div class="admin">
+<br><br><br>
+<h2 class="mm">ManageStaff<h2>
+<form name="admin_form" action="">
+<table>
+<tr class="head"><td width="20px">No</td>
+<td width="50px">Username </td>
+<td width="50px">Email </td>
+<td width="50px">Password</td>
+<td width="40px">Edit </td>
+<td width="40px"> DELETE </td>
+</tr>
+
+<tr>
+<td>1</td> <td><input name="admin_name" type="text" value="TanJunYuan"> </input></td><td><input type="email" name="admin_email" value="TanJunYuan@student.mmu.edu.my"> </input></td><td><input name="admin_pass" type="text" value="tjy123" id="myInput">
+<td><button type="submit" name="updt_btn" value="edit"><img src="img/admin/edit.png"></button></td><td><button type="reset" name="del_btn" value="delete"><img src="img/admin/delete.png"></button></td>
+</tr>
+
+<tr>
+<td>2</td> <td><input name="admin_name" type="text" value="Matthew"> </input></td><td><input type="email" name="admin_email" value="Matthew@student.mmu.edu.my"> </input></td><td><input name="admin_pass" type="text" value="matt123" id="myInput">
+<td><button type="submit" name="updt_btn" value="edit"><img src="img/admin/edit.png"></button></td><td><button type="reset" name="del_btn" value="delete"><img src="img/admin/delete.png"></button></td>
+</tr>
+
+<tr>
+<td>3</td> <td><input name="admin_name" type="text" value="Lim Zhe Khae"> </input></td><td><input type="email" name="admin_email" value="Lim Zhe Khae@student.mmu.edu.my"> </input></td><td><input name="admin_pass" type="text" value="lzk123" id="myInput">
+<td><button type="submit" name="updt_btn" value="edit"><img src="img/admin/edit.png"></button></td><td><button type="reset" name="del_btn" value="delete"><img src="img/admin/delete.png"></button></td>
+</tr>
+
+<tr>
+<td>4</td> <td><input name="admin_name" type="text" value="Lim E'Fan"> </input></td><td><input type="email" name="admin_email" value="Lim E'Fan@student.mmu.edu.my"> </input></td><td><input name="admin_pass" type="text" value="lef123" id="myInput">
+<td><button type="submit" name="updt_btn" value="edit"><img src="img/admin/edit.png"></button></td><td><button type="reset" name="del_btn" value="delete"><img src="img/admin/delete.png"></button></td>
+</tr>
+
+<tr>
+<td> 5</td> <td><input name="admin_name" type="text" value="Yogan"> </input></td><td><input type="email" name="admin_email" value="Yogan@student.mmu.edu.my"> </input></td><td><input name="admin_pass" type="text" value="yogan123" id="myInput">
+<td><button type="submit" name="updt_btn" value="edit"><img src="img/admin/edit.png"></button></td><td><button type="reset" name="del_btn" value="delete"><img src="img/admin/delete.png"></button></td>
+</tr>
+</div>
+</table>
+</form>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{	margin:auto;
+	padding:10px;
+}
+link .icon{width:128px; height:128px;}
+
+body{background-image:url(img/bi.jpg);
+	background-repeat:no-repeat; 
+     background-position:center center;
+    background-size:cover;
+	 background-attachment:fixed;
+	}
+.rl{
+	width:360px;
+	padding:10%;
+	margin:auto;
+	
+}
+
+.form{
+	position:relative;
+	z-index:1;
+	background:rgba(255, 255, 255, .5);
+	border:1px solid transparent;
+	max-width:360px;
+	margin:10px auto 20px;
+	padding:45px;
+	text-align:center;
+	overflow:auto;
+	
+}
+p{text-align:left;
+  margin-bottom:5px;}
+.form input{font-family:"Roboto",sans-serif;
+            outline:1;
+			background:#f2f2f2;
+			width:100%;
+			border: 0;
+			margin:0 0 15px
+			padding:15px
+			box-sizing:border-box;
+			font-size:14px;
+			border-radius:5px;
+			
+			}
+.form button {background-color: green; /* Green */
+			  border: none;
+			  color: white;
+			  padding: 10px 22px;
+			  text-align: center;
+			  text-decoration: none;
+			  display: inline-block;
+			  font-size: 16px;
+			  border-radius:5px;
+			  cursor:pointer;
+             }
+.form button:hover,.form button:active{
+	background:#43A047;
+}
+
+.form .message{
+	margin:15px 0 0;
+	color:aliceblue;
+	font-size:20px;
+	border-radius:5px;
+}
+.form .message a{
+	 color:Black;
+	 font-weight:bold;
+	 font-size:17px;
+	font-style:Italic;
+text-decoration:none;}
+
+.form .message a:hover{
+	color:Red;
+	font-style:Italic;
+	text-decoration:underline;}
+	
